@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start:receive-sms": "node sms/receive_sms.js",
+    "start:leadorbit-bridge": "node integration/leadorbit/expressRouteExample.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1",
+    "nodemailer": "^8.0.5",
+    "plivo": "^4.75.9"
+  }
+}
